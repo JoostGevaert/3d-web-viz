@@ -1,0 +1,10 @@
+#usda 1.0
+(
+    doc = "A simple USD scene"
+)
+
+def Sphere "mySphere" {
+    float3 xformOp:translate = (0, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+    double radius = 1
+}
