@@ -1,0 +1,26 @@
+version = 1
+requires-python = ">=3.11"
+
+[[package]]
+name = "3d-web-viz"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "usd-core" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "usd-core", specifier = ">=24.8" }]
+
+[[package]]
+name = "usd-core"
+version = "24.8"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/56/62/1b9d2f01e51f44aedc8b0041ba9307e2ccaee13fd9fb73e328b479307916/usd_core-24.8-cp311-none-macosx_10_9_universal2.whl", hash = "sha256:d1dfe295ccbc57cac39e6dee2d7ce831d7a6a504b8a17dc974e631e3521f83a6", size = 37791828 },
+    { url = "https://files.pythonhosted.org/packages/cd/fe/ac9c8a0ba8cec78a938353dc1a7d1dc6ef8f26bc520e09906d607736ceed/usd_core-24.8-cp311-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8b38b347dce9336d00dacd4c0e5813bcb43c61e165c653d754e3ee3dc4b2b715", size = 25551683 },
+    { url = "https://files.pythonhosted.org/packages/33/76/635ba50b1dc854d89f52233c57f2da85061f4482ecac9b796ebd781bce91/usd_core-24.8-cp311-none-win_amd64.whl", hash = "sha256:d3e06fd8c953c4de3d24591cdb9e8e65ca28a876519378d1e4a5d9bca419d7c1", size = 13149900 },
+    { url = "https://files.pythonhosted.org/packages/de/83/9b4915104eb3f5d2d45fbaf7ec59d30318a49835389200918824d9928a67/usd_core-24.8-cp312-none-macosx_10_9_universal2.whl", hash = "sha256:7c18be89012d03f57d5445101695461c678f370d565259893c1cbcb71a6124e6", size = 37906453 },
+    { url = "https://files.pythonhosted.org/packages/8b/27/16b34df59bfb2d3d4e7a2a0436e32a37117a7a1353aa6d93bea7f88573ab/usd_core-24.8-cp312-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0a503029fa895c9d2307bde2b15748478a0bcb4e8c4ebfa90c7c613fb8137f9d", size = 25531691 },
+    { url = "https://files.pythonhosted.org/packages/92/5e/c0a74019e3243105deb5a6c61fbc2d22ae9204b5ef8806fb252c9ea6e6f4/usd_core-24.8-cp312-none-win_amd64.whl", hash = "sha256:a3e1d9b34d3936716dbce4ee22c135acffab0f58ba9da09d47dc74992cfc5259", size = 13193399 },
+]
